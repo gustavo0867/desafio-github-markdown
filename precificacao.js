@@ -21,7 +21,15 @@ const pagamento = (preco, opcao) => {
     }
 }
 
-var pp = 100;
-op = 4;
 
-pagamento(pp,op);
+
+
+(function main() {
+    var pp = 100;
+    op = 4;
+
+    pagamento(pp,op);
+
+
+    
+})();
